@@ -1,6 +1,8 @@
 /*
  * Custom Styles for the Sensor Bubble Dashboard
  */
+/* This @import rule must be the first thing in the file */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap');
 
 :root {
     --bg-primary: #f8fafc; /* slate-50 */
@@ -12,7 +14,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Figtree', sans-serif;
     background-color: var(--bg-primary);
     color: var(--text-primary);
 }
